@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -19,7 +22,7 @@ p {
 .hero {
     background: linear-gradient(to right, #8e44ad, #e74c3c);
     color: #ffffff;
-    padding: 100px 20px;
+    padding: 60px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -51,7 +54,7 @@ p {
 .hero-logo {
     display: flex;
     align-items: center;
-    margin-left: 10px; /* Moves the logo slightly to the left */
+    margin-left: 10px; 
 }
 
 .hero-logo .logo {
@@ -66,8 +69,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
 
 .hero-logo .logo:hover {
@@ -80,7 +83,7 @@ p {
 nav {
     background: #000000;
     color: #ffffff;
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -91,7 +94,7 @@ nav {
 nav {
     background: #000000;
     color: #ffffff;
-    padding: 15px 0;
+    padding: 1px 0;
     text-align: center;
 }
 nav ul {
@@ -157,7 +160,7 @@ nav ul li a:hover {
     background: #ffffff;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center; 
 }
@@ -192,13 +195,13 @@ nav ul li a:hover {
     margin-bottom: 10px;
 }
 .section-alt a {
-    color: #2f85be;
+    color: #0028ee;
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s;
 }
 .section-alt a:hover {
-    color: #ffffff;
+    color: #ca5050;
     text-decoration: underline;
 }
 footer {
@@ -209,8 +212,8 @@ footer {
     font-size: 0.9em;
 }
 .btn-primary {
-    background: #0074c2;
-    color: #ffffff;
+    background: #000000;
+    color: #f3f3f3;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -220,7 +223,7 @@ footer {
     margin-top: 10px;
 }
 .btn-primary:hover {
-    background: #005a99;
+    background: #080c0f;
     transform: scale(1.05);
     color: #ffffff;
 }
